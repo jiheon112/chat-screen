@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;500&display=swap");
+
+@import "status-bar.css";
+@import "chat-header.css";
+@import "chat.css";
+@import "reset.css";
+
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
+}

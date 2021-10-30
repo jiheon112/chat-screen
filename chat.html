@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span> SKT</span>
+        <span> 11:22</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span> Service Available</span>
+      </div>
+
+      <div class="status-bar__column">
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+
+    <div class="chat-header">
+      <div class="chat-header__column">
+        <i class="fas fa-search fa-lg"></i>
+      </div>
+      <div class="chat-header__column">
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </div>
+
+    <main class="chat-screen">
+      <div class="chat-date">
+        <div class="chat-line"></div>
+        <span class="message_bubble">2021년 10월 21일 목요일</span>
+        <div class="chat-line"></div>
+      </div>
+
+      <div class="chat-content">
+        <img src="papaj.jpg" alt="" />
+        <div class="chat-profile">
+          <span>파파존스</span>
+          <div class="chat-message">
+            <span class="chat-white">블루? 브라운?</span>
+            <span class="chat-time">오전 6:58</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-content myself">
+        <div class="chat-profile">
+          <div class="chat-message">
+            <span class="chat-time">오전 6:58</span>
+            <span class="chat-white myComment">브라운 가자</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-gl"></i>
+      </div>
+
+      <div class="reply__column">
+        <input type="text" placeholder="write text" />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b3a73117f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
