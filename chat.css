@@ -35,6 +35,7 @@
   width: 100%;
   box-sizing: border-box;
   background-color: #80380f;
+  padding: 15px;
 }
 #chat-screen .status-bar {
 }
